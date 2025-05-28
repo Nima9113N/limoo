@@ -1,0 +1,139 @@
+@font-face {
+    font-family: vazir;
+    src: url(font/Vazir-Bold-FD-WOL.ttf);
+}
+
+@font-face {
+    font-family: lale;
+    src: url(font/Lalezar-Regular.ttf);
+}
+
+.limoo{
+    font-family: "lale";
+}
+
+.l2{
+    font-family: "vazir";
+}
+
+.c{
+    font-family: "lale";
+}
+
+.cP{
+    font-family: "vazir";
+}
+
+.btn {
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+  }
+  
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  
+  
+.card {
+    transition: inherit;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    will-change: transform; 
+  }
+b{
+    color: red;
+    font-family: vazir;
+}
+.fp {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.50));
+}
+.container {
+    display: flex;
+    margin-top: 3%;
+  }
+  
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  .firstdiv {
+    flex: 1;
+  }
+  .e23{
+    border: 2px solid wheat;
+    border-radius: 24px;
+    margin-top: 1%;
+    font-family: "lale";
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+/* اضافه کردن clearfix برای والد */
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.kod-takhfif{
+  border: 5px solid rgb(197, 197, 197);
+  border-radius: 24px;
+  padding: 10px;
+  font-family: "vazir";
+  width: 23%;
+  height: 500px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+}
+
+.div-pardukht{
+  width: 75%;
+  height: auto;
+  max-height: 700px;
+  min-height: 500px;
+  border: 5px solid rgb(197, 197, 197);
+  border-radius: 24px;
+  padding: 10px;
+  margin-top: 10px;
+  overflow: auto;
+  float: right;
+  box-sizing: border-box;
+}
+h1 ,
+h2 , 
+h3 , 
+h4 , 
+h5{
+  font-family: "lale";
+}
+p{
+  font-family: "vazir";
+}
+input{
+  border: 5px solid rgb(197, 197, 197);
+  border-radius: 15px;
+  padding: 5px;
+  font-family: "vazir";
+  font-size: small;
+}
+.aaaa{
+  width: 200px;
+}
+@media (max-width: 900px) {
+  .kod-takhfif,
+  .div-pardukht {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+  .kod-takhfif {
+    height: auto;
+    min-height: 200px;
+  }
+}

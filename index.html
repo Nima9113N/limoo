@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <title>فروشگاه لیمو</title>
+        <link rel="icon" type="image/png" href="img/PHOTO/InShot_20250515_181339667.png">
+        <meta name="viewport" content="viewport-fit=cover,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="limoo , store , all in one , asus , mobile , لیمو , فروشگاه , کامپیوتر , موبایل">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body  data-bs-theme="dark">
+        <!--نوبار-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <img src="img/PHOTO/InShot_20250515_181339667.png" width="3%" class="fp">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse , nav1" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active , l2" aria-current="page" href="index.html">خانه</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link , l2" href="https://getbootstrap.com/">یه چیزی</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle , l2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      بزن رو من
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item ,l2" href="https://aiolearn.app/main">سلام</a></li>
+                      <li><a class="dropdown-item , l2" href="https://deepseek.com">علیک</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item , l2" href="#">چوطورید؟</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled , l2" aria-disabled="true">یه چی دیگه</a>
+                  </li>
+                </ul>
+                <br>
+                <form class="d-flex , limoo" role="search">
+                  <input class="form-control me-2" type="search" placeholder="سرچ کن" aria-label="Search">
+                  <button class="btn btn-outline-success , limoo" type="submit">سیرچ</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--اسلایدر-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-theme="light">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/PHOTO/303.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/PHOTO/101.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/PHOTO/202.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br><br>
+          <br><br>
+<!-- اضافه کردن container و row -->
+<div class="container">
+  <div class="row">
+    <!-- کارت ۱ -->
+    <div class="col-lg-4  col-sm-12 mb-4 , btn"> <!-- استفاده از col-md-4 برای نمایش ۳ کارت در ردیف -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/hnf.webp" class="card-img-top" alt="..." id="hnf">
+        <div class="card-body">
+          <h4 class="card-title , c">هندزفری</h4>
+          <p class="card-text , cP"> <b>قیمت :</b>680,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>EARPHONE WIRELESS STEREO TWS V5.3</p>
+
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(0)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۲ -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/laptop.webp" class="card-img-top" alt="..." id="laptop">
+        <div class="card-body">
+          <h4 class="card-title , c">لپتاپ</h4> <p class="card-text , cP"> <b>قیمت :</b>70,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>TUF Gaming F15 FX507ZC4-HN231-i7 12700H-16GB DDR4...</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(1)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۳ (در صورت نیاز) -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/mobile.webp" class="card-img-top" alt="..." id="mobile">
+        <div class="card-body">
+          <h4 class="card-title , c">موبایل</h4> <p class="card-text , cP"> <b>قیمت :</b>32,000,000 تومان </p>
+          <br>
+          <p><b class="card-text , cP">مدل:</b>ناتینگ Phone 2a Plus</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(2)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!-- اضافه کردن container و row -->
+<div class="container">
+  <div class="row">
+    <!-- کارت ۱ -->
+    <div class="col-lg-4  col-sm-12 mb-4 , btn"> <!-- استفاده از col-md-4 برای نمایش ۳ کارت در ردیف -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/w.webp" class="card-img-top" alt="..." id="wach">
+        <div class="card-body">
+          <h4 class="card-title , c">ساعت هوشمند</h4> <p class="card-text , cP"> <b>قیمت :</b>1,200,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>ورنا W49 ultra with 7 Bands</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(3)">ممشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۲ -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/ps4.webp" class="card-img-top" alt="..." id="ps4">
+        <div class="card-body">
+          <h4 class="card-title , c">کنسول بازی</h4> <p class="card-text , cP"> <b>قیمت :</b>28,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>Playstation 4 Slim</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(4)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۳ (در صورت نیاز) -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/ps5.webp" class="card-img-top" alt="..." id="ps5">
+        <div class="card-body">
+          <h4 class="card-title , c">کنسول بازی</h4> <p class="card-text , cP"> <b>قیمت :</b>52,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>Playstation 5 Slim</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(5)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><!-- اضافه کردن container و row -->
+<div class="container">
+  <div class="row">
+    <!-- کارت ۱ -->
+    <div class="col-lg-4  col-sm-12 mb-4 , btn"> <!-- استفاده از col-md-4 برای نمایش ۳ کارت در ردیف -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/ps5d.webp" class="card-img-top" alt="..." id="ps5d">
+        <div class="card-body">
+          <h4 class="card-title , c">دسته ی بازی</h4> <p class="card-text , cP"> <b>قیمت :</b>4,950,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>دسته ی بازی سونی DualSense</p>
+         
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(6)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۲ -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/ka.webp" class="card-img-top" alt="..." id="kase-arzoon">
+        <div class="card-body">
+          <h4 class="card-title , c">کیس کامپیوتر</h4> <p class="card-text , cP"> <b>قیمت :</b>8,700,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>HA-4130 ALPHA حبیبان</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(7)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۳ (در صورت نیاز) -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/kk.webp" class="card-img-top" alt="..." id="kase-khoob">
+        <div class="card-body">
+          <h4 class="card-title , c">کیس کامپیوتر</h4> <p class="card-text , cP"> <b>قیمت :</b>16,500,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>تک زون مدل TZ3770A Plus</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(8)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><!-- اضافه کردن container و row -->
+<div class="container">
+  <div class="row">
+    <!-- کارت ۱ -->
+    <div class="col-lg-4  col-sm-12 mb-4 , btn"> <!-- استفاده از col-md-4 برای نمایش ۳ کارت در ردیف -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/kg.webp" class="card-img-top" alt="..." id="kase-geroon">
+        <div class="card-body">
+          <h4 class="card-title , c">کیس کامپیوتر</h4> <p class="card-text , cP"> <b>قیمت :</b>36,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>حبیبان XS-179 PRG REF</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(9)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۲ -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/aio1.webp" class="card-img-top" alt="..." id="aio1">
+        <div class="card-body">
+          <h4 class="card-title , c">all in one</h4> <p class="card-text , cP"> <b>قیمت :</b>27,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b>ATOM S1</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(10)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- کارت ۳ (در صورت نیاز) -->
+    <div class="col-lg-4 col-sm-12 mb-4 , btn">
+      <div class="card" style="width: 18rem;">
+        <img src="img/aio2.webp" class="card-img-top" alt="..."  id="aio2">
+        <div class="card-body">
+          <h4 class="card-title , c">all in one</h4> <p class="card-text , cP"> <b>قیمت :</b>48,000,000 تومان </p>
+          <p><b class="card-text , cP">مدل:</b> مستر تک ZN270-C58SB</p>
+          
+          <a href="html/1.html" class="btn btn-success , c" onclick="showProduct(11)">مشاهده</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>   
+</html>
